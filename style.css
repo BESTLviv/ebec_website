@@ -1,0 +1,22 @@
+@font-face {
+    font-family: NeueMachina;
+    src: url("fonts/Neue_Machina_Regular.otf");
+  }
+
+body {
+    font-family: 'NeueMachina';
+    background-color: #f6f1ee;
+}
+
+.ebec-logo {
+    border: 1px solid rgba(0, 0, 0, 1);
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+
+.logo-nav {
+    max-width: 100px;
+    -webkit-filter: brightness(0) invert(1);
+    filter: brightness(0) invert(1);
+}
