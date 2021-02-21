@@ -1,0 +1,45 @@
+.jumbotron-custom {
+    height: calc(100vh - 56px);
+    position: relative;
+}
+
+.jumbotron-custom .header-containtainer {
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+    margin: 0 100px;
+}
+
+.jumbotron-custom .header-containtainer div span{
+    font-family: 'NeueMachina-Regular', sans-serif;
+    font-size: 20px;
+}
+
+.jumbotron-custom .header-containtainer div:first-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.jumbotron-custom .header-containtainer div:last-child{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.jumbotron-custom h1 {
+    font-family: 'NeueMachina-Regular', sans-serif;
+    font-size: 450px;
+    font-style: italic;
+}
+
+.jumbotron-custom button {
+    position: absolute;
+    font-family: 'NeueMachina-Regular', sans-serif;
+    font-size: 25px;
+    top:calc(30% - 100px);
+    left:calc(50% - 100px);
+    border-radius: 125px;
+    height: 250px;
+    width: 250px;
+}
